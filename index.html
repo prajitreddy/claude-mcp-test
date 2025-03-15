@@ -9,23 +9,71 @@
 <body>
     <header>
         <h1>Hello GitHub!</h1>
+        <p>A simple demonstration website</p>
     </header>
     <main>
         <section>
             <h2>About This Project</h2>
             <p>This is a simple HTML page created as part of a GitHub workflow test.</p>
+            <p>The purpose is to demonstrate using GitHub for web development through a series of commits and pull requests.</p>
         </section>
+        
         <section>
             <h2>Features</h2>
             <ul>
                 <li>Simple HTML structure</li>
                 <li>Clean and minimalist design</li>
                 <li>Easy to modify and extend</li>
+                <li>Responsive layout</li>
             </ul>
+        </section>
+        
+        <!-- New Projects Section -->
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>A description of the first sample project.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>A description of the second sample project.</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>UI/UX</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- New Contact Section -->
+        <section class="contact">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your message"></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
     <footer>
         <p>&copy; 2025 - Created with Claude</p>
+        <p>A GitHub workflow demonstration</p>
     </footer>
 </body>
 </html>
